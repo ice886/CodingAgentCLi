@@ -1,6 +1,4 @@
-# pico
-
-`pico` 是一个面向代码仓库的轻量本地 coding agent。它直接跑在终端里，先看当前工作区，再用一组受约束的工具去读文件、改文件、跑命令，并把会话状态保存在本地 `.pico/` 目录里。
+一个面向代码仓库的轻量本地 coding agent。它直接跑在终端里，先看当前工作区，再用一组受约束的工具去读文件、改文件、跑命令，并把会话状态保存在本地 `.pico/` 目录里。
 
 它更像一个能在仓库里持续工作的命令行助手，不是纯聊天窗口。你可以拿它做代码排查、测试修复、仓库分析，或者让它在当前项目里执行一次性的工程任务。
 
@@ -23,20 +21,6 @@
   - OpenAI 兼容 Responses API
   - Anthropic 兼容 Messages API
   - DeepSeek Anthropic 兼容 API
-
-## 使用截图
-
-CLI 帮助信息：
-
-![pico help](assets/screenshots/pico-help.png)
-
-启动界面：
-
-![pico start](assets/screenshots/pico-start.png)
-
-REPL 内置命令与会话路径：
-
-![pico repl](assets/screenshots/pico-repl.png)
 
 ## 安装
 
